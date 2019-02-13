@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Minorsonek</Authors>
+    <Product>Minorsonek</Product>
+    <Description>Some base classes to include in almost every larger C# project</Description>
+    <PackageProjectUrl>https://github.com/Minorsonek/MinorsonekFundamentals</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Minorsonek/MinorsonekFundamentals</RepositoryUrl>
+    <PackageTags>base mvvm database entity framework error handling unit test dbcontext</PackageTags>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.2" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.6.0" />
+  </ItemGroup>
+
+</Project>
